@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* font-family: 'poppins', sans-serif ;*/
+}
+/*Banner*/
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688),
+    url("/shopping.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    height: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+}
+.banner-text p{
+    font-style: 30px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    position: relative;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: solid 1px #fff;
+    transition: 0.5s color;
+    z-index: 1;
+}
+.banner-btn a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: #000;
+}
+/*End-banner*/
+/*Nav*/
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    right: -250px;
+    background: #009688;
+    z-index: 2;
+    transition: right 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    color: #000;
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background: #009688;
+    text-align: center;
+    top: 20px;
+    right: 30px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 35px;
+    margin-top: 7px;
+}
+/*End-Nav*/
+/*Main*/
+#main{
+    width: 100%;
+}
+.title-text{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 70px;
+    background: #009688;
+    text-align: center;
+    color: #fff;
+}
+.title-text h1{
+    font-size: 50px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.title-text p{
+    font-size: 20px;
+    position: relative;}
+.list-product{
+    width: 100%;
+    height: 1750px;
+}
+.products{
+    width: 15%;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: solid 1px;
+
+}
+.products:hover{
+    border: 1px solid lightgray;
+    transition: 0,5s;
+}
+.products img{
+    width: 100%;
+}
+
+.products ul li{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+/*End-Main*/
+#footer{
+    width: 100%;
+    height: 200px;
+    background: #009688;
+}
+.left,.mid,.right{
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.left,.mid ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.left, ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.mid ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.mid ul li a:hover{
+    color: #fff ;
+}
+.left ul li a:hover{
+    color: #fff;
+}
+.right iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.copyright{
+    width: 100%;
+    height: 25px;
+}
+.copyright p{
+    line-height: 25px;
+    text-align: center;
+}
+
